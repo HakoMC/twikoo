@@ -161,14 +161,14 @@ const fn = {
     const COMMENT = $(comment.comment).text()
     const SITE_URL = config.SITE_URL
     const POST_URL = fn.appendHashToUrl(comment.href || SITE_URL + comment.url, comment.id)
-    const subject = config.MAIL_SUBJECT_ADMIN || `${SITE_NAME}有新评论了`
-    const content = `评论人：${NICK} ([${MAIL}](mailto:${MAIL}))
+    const subject = config.MAIL_SUBJECT_ADMIN || `${SITE_NAME}への新しいコメントです！`
+    const content = `送信者：${NICK} ([${MAIL}](mailto:${MAIL}))
 
-评论人IP：${IP}
+IPアドレス：${IP}
 
-评论内容：${COMMENT}
+コメント：${COMMENT}
 
-原文链接：[${POST_URL}](${POST_URL})`
+URL：[${POST_URL}](${POST_URL})`
     return {
       subject,
       content,

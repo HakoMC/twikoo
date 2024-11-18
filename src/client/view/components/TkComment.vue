@@ -373,6 +373,10 @@ export default {
 .tk-comment:hover .tk-actions {
   display: inline;
 }
+.tk-replies .tk-actions {
+  display: none !important;
+}
+
 .tk-extras {
   color: #999999;
   font-size: 0.875em;
