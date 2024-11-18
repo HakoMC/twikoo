@@ -1,4 +1,4 @@
-# Twikoo 云函数
+# Twikoo 云函数 but hako customized
 
 [![](https://img.shields.io/npm/v/twikoo-func)](https://www.npmjs.com/package/twikoo-func)
 [![](https://img.shields.io/npm/l/twikoo-func)](./LICENSE)
